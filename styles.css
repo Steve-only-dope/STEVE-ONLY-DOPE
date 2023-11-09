@@ -1,0 +1,94 @@
+/* Styles pour les différentes sections */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Couleur de fond pour tout le site */
+    color: #333; /* Couleur du texte principale */
+}
+
+header {
+    background-color: #2c3e50; /* Couleur de fond pour l'en-tête */
+    color: #fff; /* Couleur du texte pour l'en-tête */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Couleur des liens de navigation */
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.accueil-section {
+    background-color: #ecf0f1; /* Couleur de fond pour la section Accueil */
+    text-align: center;
+}
+
+.travail-section {
+    background-color: #d5dbdb; /* Couleur de fond pour la section Mon Travail */
+    text-align: center;
+}
+
+.travail-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.travail-images img {
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.contact-section {
+    background-color: #bdc3c7; /* Couleur de fond pour la section Contact */
+    text-align: center;
+}
+
+/* Styles pour le logo */
+
+.logo img {
+    max-width: 150px; /* Ajustez la taille du logo selon vos besoins */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centre le logo horizontalement */
+    padding: 10px; /* Espacement autour du logo, si nécessaire */
+}
+
+
+footer {
+    background-color: #34495e; /* Couleur de fond pour le pied de page */
+    color: #fff; /* Couleur du texte pour le pied de page */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 0;
+}
+/* Styles pour les liens */
+
+a {
+    text-decoration: none; /* Enlève le soulignement par défaut */
+    color: #0077cc; /* Couleur du lien */
+    transition: color 0.3s ease; /* Transition fluide de la couleur au survol */
+}
+
+a:hover {
+    color: #0099ff; /* Couleur du lien au survol */
+}
